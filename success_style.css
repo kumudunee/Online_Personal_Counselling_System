@@ -1,0 +1,36 @@
+#main {
+    width: 50%;
+    border-radius: 7px;
+    border: 3px solid #11F420;
+    margin-left: 25%;
+}
+
+#reg1{
+    color: #11F420;
+    text-align: center;
+}
+
+#reg2{
+    color: red;
+    text-align: center;
+}
+
+#data {
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+
+#data button{
+    background-color: #11F420;
+    border: 0;
+    width: 25%;
+    height: 30px;
+    color:white;
+}
+
+#data button:hover{
+    background-color:white;
+    color:#11F420;
+    border: 2px solid #11F420;
+}

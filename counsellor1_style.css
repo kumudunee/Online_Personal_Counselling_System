@@ -1,0 +1,146 @@
+/* background */
+
+
+/* header Items */
+
+#header {
+    height: 150px;
+}
+
+#logo {
+    display: block;
+    float: left;
+    height: 150px;
+    margin: 0 10px;
+}
+
+#header h1 {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    line-height: 100px;
+    font-family: comic sans MS;
+    color: #22a7f0;
+}
+
+#search-bar {
+    float: right;
+    margin: 40px 10px;
+    display: block;
+}
+
+#search-bar input {
+    border-color: black;
+    border-radius: 7px;
+    height: 20px;
+}
+
+
+/* Navigation Bar */
+
+#navi-bar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #22a7f0;
+}
+
+#navi-bar li {
+    display: inline-block;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100px;
+    text-align: center;
+    padding: 15px 10px;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#cho-item {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100px;
+    text-align: center;
+    padding: 15px 10px;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: black;
+}
+
+.nav-item:hover {
+    color: white;
+    background-color: #025fc9;
+}
+
+
+/* body items */
+
+
+/* background image */
+
+#back-img {
+    margin: 0;
+    background-image: url("images/counsellorsback.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#about {
+    padding: 5%;
+}
+
+#about h1{
+    text-align: center;
+}
+
+.para {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    margin: 1%;
+    text-align: center;
+}
+
+#about h3{
+    text-align: center;
+}
+
+/* footer */
+
+#footer-background {
+    width: 100%;
+    display: block;
+    background-color: #22a7f0;
+    font-weight: 200;
+}
+
+#foot-addr {
+    display: inline-block;
+    padding-left: 1cm;
+}
+
+.address {
+    color: white;
+    font-family: comic sans MS;
+}
+
+#social-media {
+    float: right;
+}
+
+#social-media h3 {
+    color: white;
+    font-family: comic sans MS;
+    margin-left: 7px;
+}
